@@ -1,5 +1,4 @@
 import {useState} from "react";
-
 import MainPage from "./pages/mainPage";
 
 import {Route, Routes} from "react-router-dom";
