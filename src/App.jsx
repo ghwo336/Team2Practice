@@ -1,14 +1,11 @@
-import {useState} from "react";
-import MainPage from "./pages/mainPage";
+import InitPage from "./pages/InitPage";
 
 import {Route, Routes} from "react-router-dom";
 
 function App() {
-  const [count, setCount] = useState(0);
-
   return (
     <Routes>
-      <Route path="/" element={<MainPage />} />
+      <Route path="/" element={<InitPage />} />
     </Routes>
   );
 }

@@ -22,7 +22,7 @@ const Text = styled.div`
   padding: 20px;
 `;
 
-const MainPage = () => {
+const InitPage = () => {
   const [name, setName] = useState("");
   const [memberId, setId] = useState("");
   const [password, setPassword] = useState("");
@@ -112,4 +112,4 @@ const MainPage = () => {
   );
 };
 
-export default MainPage;
+export default InitPage;
