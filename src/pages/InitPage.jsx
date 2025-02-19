@@ -52,7 +52,7 @@ const InitPage = () => {
 
     try {
       const response = await fetch(
-        "https://54.152.101.147:8080/member/create",
+        "https://54.152.101.147:8443/member/create",
         {
           method: "POST",
           headers: {
